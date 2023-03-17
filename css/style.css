@@ -1,0 +1,60 @@
+/*reseteo de estilos predeterminados de los navegadores*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
+body{
+    background-color: #efefef;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar-top{
+    background-color: #ffcc00;
+}
+.navbar-brand{
+    color: #2f302b;
+}
+.navbar-brand:hover{
+    opacity: 72%;
+}
+nav{
+    background-color: transparent;
+}
+.nav-link{
+    color: #2f302b;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: #efefef;
+    background-color: #2f302b;
+}
+a .active{
+    color: #efefef;
+}
+.active:hover{
+    background-color:transparent;
+}
+.hero{
+    background-color: #efefef;
+}
+.hero img{
+    height: 270px;
+    width: 270px;
+}
+.batman{
+    background-image: url("../img/gente-anonima-ocupada-telefonos-inteligentes.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.holmes{
+    background-image: url("../img/fuerza-personas-manos-exito-reunion.webp");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
