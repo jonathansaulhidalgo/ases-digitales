@@ -12,13 +12,13 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
 }
 .navbar-top{
-    background-color: #ffcc00;
+    background-color: #2f302b;
 }
 .navbar-brand{
-    color: #2f302b;
+    color: #efefef;
 }
 .navbar-brand:hover{
-    opacity: 72%;
+    color: #ffcc00;    
 }
 nav{
     background-color: transparent;
@@ -27,34 +27,67 @@ nav{
     color: #2f302b;
     font-weight: bold;
 }
-.nav-link:hover{
-    color: #efefef;
+a.nav-link:hover {
+	color: #ffcc00;
+}
+.dropdown-menu{
+    background-color: #efefef;
+}
+.dropdown-item{
+    font-weight: bold;
+}
+.dropdown-item:hover{
+    color: #ffcc00;
+    background-color: #efefef;
+}
+.card{
     background-color: #2f302b;
-}
-a .active{
     color: #efefef;
 }
-.active:hover{
-    background-color:transparent;
+.card a{
+    color: #efefef;
+}
+.card-body{
+    background-color: transparent;
+    padding: 4px;
+}
+.list-group{
+    background-color: transparent;
+}
+.list-group-item{
+    background-color: transparent;
+    padding: 2px;
 }
 .hero{
     background-color: #efefef;
 }
 .hero img{
-    height: 270px;
-    width: 270px;
+    height: 360px;
+    width: 360px;
 }
-.batman{
-    background-image: url("../img/gente-anonima-ocupada-telefonos-inteligentes.jpg");
+.heroine{
+    background-color: #2f302b;
+}
+.heroine h2{
+    color: #ffcc00;
+}
+.heroine h5{
+    color: #efefef;
+}
+.her-villian-index-1{
+    background-image: url("../img/her-villian.jpg");
     height: 80vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.holmes{
-    background-image: url("../img/fuerza-personas-manos-exito-reunion.webp");
+.him-villian-index-1{
+    background-image: url("../img/him-villian.jpg");
     height: 80vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.henchman{
+    background-color: #efefef;
 }
