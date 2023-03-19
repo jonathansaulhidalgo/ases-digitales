@@ -91,3 +91,16 @@ a.nav-link:hover {
 .henchman{
     background-color: #efefef;
 }
+.henchman.card-body{
+    background-color: transparent;
+}
+.heroine i{
+    color: #ffcc00;
+}
+.btn-secondary{
+    background-color: #2f302b;
+}
+.btn-secondary:hover{
+    background-color: #2f302b;
+    color: #ffcc00;
+}
