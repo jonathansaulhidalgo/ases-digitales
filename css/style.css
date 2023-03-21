@@ -19,11 +19,11 @@ body{
     color: #ffcc00;    
 }
 nav{
+    font-family: 'Bebas Neue', cursive;
     background-color: transparent;
 }
 .nav-link{
     color: #2f302b;
-    font-weight: bold;
 }
 a.nav-link:hover {
 	color: #ffcc00;
@@ -31,23 +31,33 @@ a.nav-link:hover {
 .dropdown-menu{
     background-color: #efefef;
 }
-.dropdown-item{
-    font-weight: bold;
-}
 .dropdown-item:hover{
     color: #ffcc00;
     background-color: #efefef;
 }
-.card{
+.card-dark{
     background-color: #2f302b;
     color: #efefef;
 }
-.card a{
+.card-dark a{
     color: #efefef;
 }
-.card-body{
+.card-light{
+    background-color: #efefef;
+    color: #2f302b;
+}
+.card-light a{
+    color: #2f302b;
+}
+.card-header{
+    font-family: 'Bebas Neue', cursive;
     background-color: transparent;
-    padding: 4px;
+}
+.card-dark .card-header{
+    color: #ffcc00;
+}
+.card a:hover{
+    color: #ffcc00;
 }
 .list-group{
     background-color: transparent;
@@ -66,13 +76,6 @@ a.nav-link:hover {
 .heroine{
     background-color: #2f302b;
 }
-.heroine h2{
-    color: #ffcc00;
-    font-family: 'Bebas Neue', cursive;
-}
-.heroine h5{
-    color: #efefef;
-}
 .her-villian-index-1{
     background-image: url("../img/her-villian.jpg");
     height: 80vh;
@@ -90,29 +93,11 @@ a.nav-link:hover {
 .henchman{
     background-color: #efefef;
 }
-.henchman.card-body{
-    background-color: transparent;
-}
-.heroine i{
-    color: #ffcc00;
-}
 .btn-secondary{
     background-color: #2f302b;
 }
 .btn-secondary:hover{
     background-color: #2f302b;
-    color: #ffcc00;
-}
-.card-light{
-    background-color: transparent;
-}
-.card-light .card-header{
-    background-color: transparent;
-    color: #2f302b;
-    font-family: 'Bebas Neue', cursive;
-}
-.card-light .card-body{
-    color: #2f302b;
 }
 .brand-img{
     height: 180px;
@@ -123,4 +108,23 @@ a.nav-link:hover {
 }
 .navbar-footer a:hover{
     color: #ffcc00;    
+}
+.footer-menu{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #2f302b;
+    font-weight: bold;
+}
+a:hover{
+    color: #ffcc00;
+}
+.suscribe{
+    background-color: #efefef;
+    color: #2f302b;
+}
+.suscribe:hover{
+    background-color: #efefef;
+    color: #2f302b;
 }
