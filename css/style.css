@@ -128,3 +128,7 @@ a:hover{
     background-color: #efefef;
     color: #2f302b;
 }
+.dropdown-servicios{
+    max-height: 500px;
+    overflow-y: scroll;
+}
