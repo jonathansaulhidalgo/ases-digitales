@@ -77,14 +77,21 @@ a.nav-link:hover {
     background-color: #2f302b;
 }
 .her-villian-index-1{
-    background-image: url("../img/her-villian.jpg");
+    background-image: url("../img/villian/gestion-de-redes-sociales-marketing-digital.jpg");
     height: 80vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .him-villian-index-1{
-    background-image: url("../img/him-villian.jpg");
+    background-image: url("../img/villian/desarrollo-web.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.they-villian-index-1{
+    background-image: url("../img/villian/gestion-de-proyectos-trabajo-en-equipo.jpg");
     height: 80vh;
     background-repeat: no-repeat;
     background-position: center;
